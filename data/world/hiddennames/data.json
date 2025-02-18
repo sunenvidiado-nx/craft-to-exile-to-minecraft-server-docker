@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "f48d47a4-8781-3045-a914-5d7328dc2b89",
+    "displayName": {
+      "insertion": "Buttercupp",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell Buttercupp "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "f48d47a4-8781-3045-a914-5d7328dc2b89",
+          "name": {
+            "text": "Buttercupp"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "Buttercupp"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "hidden"
+  }
+]

@@ -1,0 +1,19 @@
+# Ignore everything in data directory except world
+data/*
+!data/world/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+!.env.example
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# Logs
+*.log

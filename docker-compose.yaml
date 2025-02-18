@@ -1,0 +1,52 @@
+name: Craft To Exile 2 Minecraft Server
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:java17
+    tty: true
+    stdin_open: true
+    network_mode: host
+    environment:
+      EULA: "TRUE"
+      TYPE: "AUTO_CURSEFORGE"
+      MAX_MEMORY: 10G
+      MEMORY: 6G
+      VERSION: "1.20.1"
+      DIFFICULTY: "normal"
+      ONLINE_MODE: "FALSE" # Allow cracked players
+      SEED: 542282774301782913
+      ICON: "https://iili.io/2y59d3x.md.png"
+      SERVER_NAME: "Craft To Exile 2 Minecraft Server"
+      MOTD: "         §6⚔ §bCraft to Exile §e2 §6⚔\n         §d§lMinecraft §7§l1.20.1 §8§l• §c§lv0.9.2"
+
+      # Additional mods
+      # 
+      # Mods to add:
+      # - skinrestorer: 443823
+      CURSEFORGE_FILES: |
+        443823
+
+      # CurseForge
+      CF_API_KEY: ${CF_API_KEY}
+      CF_SLUG: craft-to-exile-2
+      CF_FILENAME_MATCHER: Craft to Exile 2-0.9.2
+
+      # Exclude mods by ID (slug isn't working)
+      #
+      # Mods to exclude:
+      # - chatplus: 1023333
+      # - minemenu: 222378
+      CF_EXCLUDE_MODS: |
+        1023333
+        222378
+    volumes:
+      - ./data:/data
+
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:latest
+    platform: linux/amd64 # Run on M series macs, remove if not using one
+    network_mode: host
+    environment:
+      - SECRET_KEY=${PLAYIT_GG_SECRET_KEY}
+    restart: unless-stopped
+
