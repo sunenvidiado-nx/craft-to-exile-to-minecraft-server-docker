@@ -1,0 +1,15 @@
+{
+	id: "6bd7fcbc-a58c-4bb4-9e8b-13a7d43b9c33"
+	type: "party"
+	owner: "4194e53f-e0c1-3cab-91bc-d87aa7851ff0"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Mga Dakog Oten"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFB359"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

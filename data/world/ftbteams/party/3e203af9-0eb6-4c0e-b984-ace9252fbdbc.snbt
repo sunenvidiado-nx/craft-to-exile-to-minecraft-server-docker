@@ -1,0 +1,23 @@
+{
+	id: "3e203af9-0eb6-4c0e-b984-ace9252fbdbc"
+	type: "party"
+	owner: "334d8114-09ba-3fe0-b8c4-d18ba9d5039e"
+	ranks: {
+		4194e53f-e0c1-3cab-91bc-d87aa7851ff0: "member"
+		334d8114-09ba-3fe0-b8c4-d18ba9d5039e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "IamTheAstroid"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59D5"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1740225700611L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"IAmTheAstroid\"}]}" }
+		{ from: "334d8114-09ba-3fe0-b8c4-d18ba9d5039e", date: 1740225716066L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Buttercnp\"}]}" }
+		{ from: "334d8114-09ba-3fe0-b8c4-d18ba9d5039e", date: 1740225723085L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Buttercnp\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1740225728268L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Buttercnp\"}]}" }
+	]
+	extra: { }
+}

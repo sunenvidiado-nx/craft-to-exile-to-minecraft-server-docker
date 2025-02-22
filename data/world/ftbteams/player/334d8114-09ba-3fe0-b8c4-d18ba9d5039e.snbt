@@ -1,0 +1,15 @@
+{
+	id: "334d8114-09ba-3fe0-b8c4-d18ba9d5039e"
+	type: "player"
+	player_name: "IAmTheAstroid"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "IAmTheAstroid"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59D5"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,15 @@
+{
+	id: "264a495a-773e-4173-b1b5-cd6d19a4ada2"
+	type: "party"
+	owner: "4194e53f-e0c1-3cab-91bc-d87aa7851ff0"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Buttercnp's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFC3"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

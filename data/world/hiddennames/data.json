@@ -1,5 +1,59 @@
 [
   {
+    "uuid": "4194e53f-e0c1-3cab-91bc-d87aa7851ff0",
+    "displayName": {
+      "insertion": "Buttercnp",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell Buttercnp "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "4194e53f-e0c1-3cab-91bc-d87aa7851ff0",
+          "name": {
+            "text": "Buttercnp"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "Buttercnp"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "hidden"
+  },
+  {
+    "uuid": "334d8114-09ba-3fe0-b8c4-d18ba9d5039e",
+    "displayName": {
+      "insertion": "IAmTheAstroid",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell IAmTheAstroid "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "334d8114-09ba-3fe0-b8c4-d18ba9d5039e",
+          "name": {
+            "text": "IAmTheAstroid"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "IAmTheAstroid"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "hidden"
+  },
+  {
     "uuid": "f48d47a4-8781-3045-a914-5d7328dc2b89",
     "displayName": {
       "insertion": "Buttercupp",

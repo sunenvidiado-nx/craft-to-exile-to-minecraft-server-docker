@@ -1,0 +1,15 @@
+{
+	id: "4194e53f-e0c1-3cab-91bc-d87aa7851ff0"
+	type: "player"
+	player_name: "Buttercnp"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Buttercnp"
+		"ftbteams:description": ""
+		"ftbteams:color": "#95FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
